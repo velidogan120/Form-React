@@ -1,0 +1,299 @@
+{
+  "data": [
+    {
+      "MetaTagTitle": "Test Meta Tag Title",
+
+      "MetaTagDescription": "Test Meta Tag Description",
+
+      "HasCaptcha": true,
+
+      "language": "tr",
+
+      "title": "Sponsorluk Talep Başvuru Formu",
+
+      "formdescription": "Kısa Açıklama Sponsorluk taleplerini sağlıklı şekilde yönetebilmek amacı ile bu konudaki başvuruları sadece online olarak, bu form üzerinden kabul ediyoruz. Tehlike, şiddet ve ayrımcılık içeren etkinliklere sponsorluk vermediğimizi hatırlatırız.",
+
+      "FormDetailDescription": "Açıklama Sponsorluk taleplerini sağlıklı şekilde yönetebilmek amacı ile bu konudaki başvuruları sadece online olarak, bu form üzerinden kabul ediyoruz. Tehlike, şiddet ve ayrımcılık içeren etkinliklere sponsorluk vermediğimizi hatırlatırız.",
+
+      "Formrightdescription": "Başvuru formunun yorum bölümünde aşağıdaki soruları açıklayarak cevaplamayı unutmayınız.<ul><li>Sponsor olarak Turkcell’i neden tercih ettiniz?</li><li>Projeniz, Turkcell markası ile nasıl bir bütünlük sağlayacaktır?</li></ul>Başvurunuza eklemek istediğiniz rapor, fotoğraf vb. gibi belgeleri <a > turkcellkurumsalsponsorluklar@turkcell.com.tr </a> adresine e-posta yoluyla iletebilirsiniz. Sponsor olduğumuz projelerimiz için <a > tıklayınız.</a>Sponsorluk başvurularınızın sonuçları konusunda “olumlu” değerlendirme yapılması durumunda 7 ila 10 iş günü içinde e-posta ile bilgilendirme yapılacaktır. Projelerinizde Turkcell’i tercih ettiğiniz için teşekkür ederiz.",
+
+      "FormFooterColumn": "Footer Kolon.Kısa Açıklama Sponsorluk taleplerini sağlıklı şekilde yönetebilmek amacı ile bu konudaki başvuruları sadece online olarak, bu form üzerinden kabul ediyoruz. Tehlike, şiddet ve ayrımcılık içeren etkinliklere sponsorluk vermediğimizi hatırlatırız.",
+
+      "Columns": [
+        {
+          "ColName": "ColData1",
+
+          "ColTitle": "Text Zorunlu",
+
+          "ColType": 1,
+
+          "ColSize": 600,
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData2",
+
+          "ColType": 2,
+
+          "ColSize": 999,
+
+          "ColCols": 2,
+
+          "ColRows": 7,
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData3",
+
+          "ColTitle": "Multi Text Zorunlu Değil",
+
+          "ColType": 2,
+
+          "ColSize": 700,
+
+          "ColCols": 2,
+
+          "ColRows": 7,
+
+          "ColRequired": false,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData4",
+
+          "ColTitle": "Email",
+
+          "ColType": 3,
+
+          "ColSize": 200,
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData5",
+
+          "ColTitle": "Seçenek Boş Satır Yok",
+
+          "ColType": 4,
+
+          "ColSize": 800,
+
+          "ColChoice": [
+            {
+              "value": "1",
+              "label": "Seçenek 1"
+            },
+            {
+              "value": "2",
+              "label": "Seçenek 2"
+            }
+          ],
+
+          "ColRequired": true,
+
+          "ColEmptyField": false
+        },
+
+        {
+          "ColName": "ColData6",
+
+          "ColTitle": "Seçenek Boş Satır Var",
+
+          "ColType": 4,
+
+          "ColSize": 800,
+
+          "ColChoice": [
+            {
+              "value": "3",
+              "label": "Seçenek 3"
+            },
+            {
+              "value": "4",
+              "label": "Seçenek 4"
+            }
+          ],
+
+          "ColRequired": false,
+
+          "ColEmptyField": true,
+
+          "ColEmptyFieldText": {
+              "value": "0",
+              "label": "Lüften Seçiniz"
+            }
+        },
+        
+        {
+          "ColName": "ColData21",
+
+          "ColTitle": "checkbox",
+
+          "ColType": 11,
+          "ColChoice": [
+            {
+              "value": "1",
+              "label": "Seçenek 1"
+            },
+            {
+              "value": "2",
+              "label": "Seçenek 2"
+            },
+            {
+              "value": "3",
+              "label": "Seçenek 3"
+            }
+          ],
+
+          "ColRequired": false
+
+        },
+        {
+          "ColName": "ColData22",
+
+          "ColTitle": "checkbox",
+
+          "ColType": 11,
+          "ColChoice": [
+            {
+              "value": "4",
+              "label": "Seçenek 4"
+            },
+            {
+              "value": "5",
+              "label": "Seçenek 5"
+            },
+            {
+              "value": "6",
+              "label": "Seçenek 6"
+            }
+          ],
+
+          "ColRequired": true       },
+        
+        {
+          "ColName": "ColData23",
+
+          "ColTitle": "tc kimlik",
+
+          "ColType": 12,
+
+          "ColRequired": true
+
+        },
+
+        {
+          "ColName": "ColData7",
+
+          "ColTitle": "Şifre",
+
+          "ColType": 5,
+
+          "ColSize": 5,
+
+          "ColRequired": true        },
+
+        {
+          "ColName": "ColData8",
+
+          "ColTitle": "Tarih",
+
+          "ColType": 7,
+
+          "ColSize": 10,
+
+          "ColRequired": false        },
+
+        {
+          "ColName": "ColData9",
+
+          "ColTitle": "Doğum Tarihi Zorunlu",
+
+          "ColType": 14,
+
+          "ColRequired": true        },
+
+        {
+          "ColName": "ColData10",
+
+          "ColTitle": "Doğum Tarihi Zorunlu Değil",
+
+          "ColType": 14,
+
+          "ColRequired": false        },
+
+        {
+          "ColName": "ColData11",
+
+          "ColTitle": "Evet/Hayır Zorunlu",
+
+          "ColType": 8,
+
+          "ColRequired": true       },
+
+        {
+          "ColName": "ColData12",
+
+          "ColTitle": "Evet/Hayır Zorunlu Değil",
+
+          "ColType": 8,
+
+          "ColRequired": false        },
+
+        {
+          "ColName": "ColData19",
+
+          "ColTitle": "tel no",
+
+          "ColType": 10,
+
+          "ColRequired": true,
+
+          "ColEmptyField": true
+        },
+
+        {
+          "ColName": "ColData20",
+
+          "ColTitle": "tel no Zorunlu Değil",
+
+          "ColType": 10,
+
+          "ColRequired": false,
+
+          "ColEmptyField": true
+        }
+      ]
+    }
+  ]
+,
+
+
+
+
+
+
+
+"cms": {
+    "message.req": "{ColumnTitle} alanını lütfen kontrol ediniz",
+
+    "message.email": "Lütfen geçerli bir e-posta adresi giriniz.",
+
+    "message.captcha": "Lütfen güvenlik kodunu giriniz.",
+
+    "message.checkbox": "Bu alanı işaretlemeniz gerekmektedir."
+  }
+}
